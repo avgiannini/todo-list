@@ -1,0 +1,121 @@
+:root {
+    --cor-um: #820AD1;
+    --cor-dois: #6b01b2;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: #FFFFFF;
+    background-color: #820AD1;
+    
+}
+
+main {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+form {
+    display: flex;
+    margin: 20px 0 20px 0;
+}
+
+input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 50px;
+    outline: none;
+    border: 2px solid #d3d3d3;
+    transition: all .3s;
+    font-size: 12pt;
+}
+
+input:focus {
+    border: 2px solid var(--cor-um);
+}
+
+.btn {
+    width: 100px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    margin-left: 5px;
+    color: #FFFFFF;
+    background-color: var(--cor-um);
+}
+
+.btn:focus {
+    border: none;
+}
+
+.btn:hover {
+    background-color: var(--cor-dois);
+}
+
+ul {
+    list-style: none;
+}
+
+.item {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.nomeTarefa {
+    font-size: 15pt;
+    color: #000000;
+}
+
+.botao {
+    width: 75px;
+    cursor: pointer;
+    padding: 5px;
+    margin-left: 5px;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    transition: all .3s;
+    color: #FFFFFF;
+    background-color: var(--cor-um);
+}
+
+.botao:hover {
+    background-color: var(--cor-dois);
+}
+
+.border-bottom-green {
+    border-bottom: 2px solid #03e203;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    position: fixed;
+    padding: 10px 0 10px 0;
+    background-color: var(--cor-um);
+}
+
+p {
+    font-size: 10pt;
+    color: #FFFFFF;
+}
