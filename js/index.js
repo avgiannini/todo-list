@@ -84,5 +84,5 @@ const removerTarefa = id => {
     
     localStorage.setItem('tarefas', JSON.stringify(novaListaDeTarefas));
     exibirTarefas();
-    location.href = '/';
+    location.href = '/todo-list';
 }
